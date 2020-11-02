@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "916394211797",
+    "firebase_url": "https://react-723eb.firebaseio.com",
+    "project_id": "react-723eb",
+    "storage_bucket": "react-723eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916394211797:android:5809a8e5be564f6ba6a55c",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916394211797-em1ufcoas771a5n6icop6dnk3kfpmhec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB09binFI3QAT2LLKQg3xGV5jIiJKJixtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916394211797-em1ufcoas771a5n6icop6dnk3kfpmhec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
