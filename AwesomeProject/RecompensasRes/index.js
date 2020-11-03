@@ -54,7 +54,7 @@ import {
         <ImageBackground
         style={styles.fundo}
         resizeMode="stretch"
-        source={{uri:'https://cdn.discordapp.com/attachments/692505323440832615/768856934224625744/Ford_APP_Recompensas_Resgatar.png'}}
+        source={require('../img/Ford_APP_Recompensas_Resgatar.png')}
         >
             <View style={styles.DivVolta}>
                 <TouchableOpacity style={styles.BtnVolta} onPress={() =>

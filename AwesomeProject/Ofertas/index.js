@@ -34,11 +34,11 @@ import {
       },
   });
 
-const images=[
+var images=[
 
-    'https://cdn.discordapp.com/attachments/692505323440832615/770795802854424607/Ford_APP_Ofertas_-_Edge_V2.png',
-    'https://cdn.discordapp.com/attachments/692505323440832615/770795830588080168/Ford_APP_Ofertas_-_Mustang_V2.png',
-    'https://cdn.discordapp.com/attachments/692505323440832615/767596117407563796/Ford_APP_Ofertas_-_Raptor.png'
+    require('../img/Ford_APP_Ofertas_-_Edge_V2.png'),
+    require('../img/Ford_APP_Ofertas_-_Mustang_V2.png'),
+    require('../img/Ford_APP_Ofertas_-_Raptor.png')
 
 ]
   export default class Ofertas extends React.Component {
@@ -47,7 +47,7 @@ const images=[
         <View style={{backgroundColor:'white',width:'100%',height:'100%'}}>
             <View style={{backgroundColor:'white',width:'100%',height:'30%',marginTop:-30}}>
               <ImageBackground
-                source={{uri:'https://cdn.discordapp.com/attachments/692505323440832615/768326060462047242/Ford_APP_Ofertas_2.png'}}
+                source={require('../img/Ford_APP_Ofertas_2.png')}
                 style={styles.icon}
                 resizeMode='stretch'
               >
@@ -69,7 +69,7 @@ const images=[
                 <Image
                 key={index}
                 resizeMode='stretch'
-                source={{uri:image}}
+                source={image}
                 style={styles.ofertas}
                 /> 
                 

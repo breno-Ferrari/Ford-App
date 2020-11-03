@@ -55,7 +55,7 @@ import {
       return (
             <View style={{backgroundColor:'white',width:'100%',height:'100%'}}>
               <ImageBackground
-                source={{uri:'https://cdn.discordapp.com/attachments/692505323440832615/771816852879179836/Ford_APP_Mais.png'}}
+                source={require('../img/Ford_APP_Mais.png')}
                 style={styles.icon}
                 resizeMode='stretch'
               >

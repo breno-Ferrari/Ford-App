@@ -39,8 +39,8 @@ import {
   });
 
   const images=[
-    'https://cdn.discordapp.com/attachments/692505323440832615/768862551164715048/Itens_Ford_Pass_Recompensas.png',
-    'https://cdn.discordapp.com/attachments/692505323440832615/768871336025260052/Ford_APP_Ofertas.png'
+    require('../img/Itens_Ford_Pass_Recompensas.png'),
+    require('../img/Ford_APP_Ofertas.png')
   ]
 
 
@@ -51,7 +51,7 @@ import {
         <ImageBackground
         style={styles.fundo}
         resizeMode="stretch"
-        source={{uri:'https://cdn.discordapp.com/attachments/692505323440832615/768865327151841290/Ford_APP_Recompensas_Exclusivos.png'}}
+        source={require('../img/Ford_APP_Recompensas_Exclusivos.png')}
         >
         <View style={styles.DivVolta}>
             <TouchableOpacity style={styles.BtnVolta} onPress={() =>
@@ -66,7 +66,7 @@ import {
               <Image
               key={index}
               resizeMode="contain"
-              source={{uri:image}}
+              source={image}
               style={styles.exclusivos}
            /> 
             ))

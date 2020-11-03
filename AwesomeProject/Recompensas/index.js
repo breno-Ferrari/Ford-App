@@ -57,7 +57,7 @@ import { RotationGestureHandler } from 'react-native-gesture-handler';
         <ImageBackground
         style={styles.fundo}
         resizeMode="stretch"
-        source={{uri:'https://cdn.discordapp.com/attachments/692505323440832615/768859352811175936/Ford_APP_Recompensas.png'}}
+        source={require('../img/Ford_APP_Recompensas.png')}
         >
 
             <View style={styles.DivVolta}>
