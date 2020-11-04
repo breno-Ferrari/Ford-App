@@ -45,6 +45,14 @@ import {
 
     },
 
+    DivPontos:{
+      //backgroundColor:"pink",
+      position:"absolute",
+      width:"100%",
+      height:75,
+      top:484,
+    }
+
   });
 
 
@@ -72,6 +80,14 @@ import {
                         this.props.navigation.navigate('Recompensas')}>
               </TouchableOpacity>
             </View> 
+
+            <View style={styles.DivPontos}>
+              <TouchableOpacity style={styles.BtnTamanho2}
+                  onPress={() => 
+                        this.props.navigation.navigate('Home')}>
+              </TouchableOpacity>
+            </View> 
+
               </ImageBackground>
             </View>
                     );
