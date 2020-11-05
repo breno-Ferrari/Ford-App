@@ -30,6 +30,7 @@ database()
 
     
     images.push(require('../img/Proximo_Veiculo.png'))
+    images.push(require('../img/Proximo_Veiculo_Barra.png'))
     }
     });
 
@@ -39,38 +40,38 @@ database()
 const styles = StyleSheet.create({
   fundo: {
 
-    width: '100%', 
+    width: '100%',
     height: '100%'
- 
+
   },
   carrosel: {
-    width:200,
-    height:330,
-      },
+    width: 200,
+    height: 330,
+  },
 
-  DivMais:{
-    position:"absolute",
-    width:60,
-    height:50,
-    top:885,
-    left:400,
+  DivMais: {
+    position: "absolute",
+    width: 60,
+    height: 50,
+    top: 885,
+    left: 400,
     //backgroundColor:"pink"
-      },
+  },
 
-      BtnVolta:{
-        width:60,
-        height:50,
-    
-      },
+  BtnVolta: {
+    width: 60,
+    height: 50,
 
-      DivCarrosel:{
+  },
 
-        position:"absolute",
-          width:500,
-          height:330,
-          top:520,
-          //backgroundColor:"pink"
-          },
+  DivCarrosel: {
+
+    position: "absolute",
+    width: 500,
+    height: 330,
+    top: 520,
+    //backgroundColor:"pink"
+  },
 
 
 
@@ -88,7 +89,7 @@ export default class Home extends React.Component {
         <ImageBackground
           style={styles.fundo}
           resizeMode="stretch"
-          source={require('../img/Ford_APP_Teste2.png')}
+          source={require('../img/Ford_APP_Teste_2.png')}
         >
           {/* <Button title="" onClick={someMethod}>Click to reload!</Button> */}
           <View style={styles.DivCarrosel}>
@@ -110,12 +111,14 @@ export default class Home extends React.Component {
             ))
            }
            </ScrollView>
+
            </View>
            <View style={styles.DivMais}>
           <TouchableOpacity style={styles.BtnVolta} onPress={() =>
               this.props.navigation.navigate('Mais')}>
           </TouchableOpacity>
         </View>
+        
         </ImageBackground>
       </View>
     );

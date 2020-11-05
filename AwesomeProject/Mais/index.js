@@ -84,7 +84,7 @@ import {
             <View style={styles.DivPontos}>
               <TouchableOpacity style={styles.BtnTamanho2}
                   onPress={() => 
-                        this.props.navigation.navigate('Home')}>
+                        this.props.navigation.navigate('PontosIndi')}>
               </TouchableOpacity>
             </View> 
 

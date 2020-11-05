@@ -66,14 +66,16 @@ const styles = StyleSheet.create({
   exclusivos: {
     marginLeft: 20,
     width: 440,
-    height: 485,
-  }
+    height: 683,
+  },
+  espaço:{
+    height:10,
+}
 
 });
 
 const images = [
-  require('../img/Itens_Ford_Pass_Recompensas.png'),
-  require('../img/Itens_Ford_Pass_Recompensas2.png'),
+  require('../img/Ford_APP_Acumular_Items.png'),
   require('../img/Ford_APP_Ofertas.png')//barra fundo da tela
 ]
 
@@ -106,7 +108,10 @@ export default class App extends React.Component {
             </TouchableOpacity>
           </View>
         </ImageBackground>
-
+        <View>
+            <Image  style={styles.espaço} source={require('../img/Ford_APP_Ofertas.png')}>
+            </Image> 
+        </View>
         <ScrollView>
           {
             images.map((image, index) => (

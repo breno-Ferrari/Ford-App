@@ -12,7 +12,8 @@ import Recompensas from './Recompensas';
 import RecompensasRes from './RecompensasRes';
 import RecompensasEx from './RecompensasEx';
 import RecompensasAcu from './RecompensasAcu';
-
+import PontosIndi from './PontosIndi';
+import ComoGanhar from "./ComoGanhar";
 
 const Stack = createStackNavigator();
 
@@ -28,6 +29,8 @@ export default function App(){
         <Stack.Screen name="RecompensasRes" component={RecompensasRes} options={{animationEnabled: false}} />
         <Stack.Screen name="RecompensasEx" component={RecompensasEx} options={{animationEnabled: false}} /> 
         <Stack.Screen name="RecompensasAcu" component={RecompensasAcu} options={{animationEnabled: false}} /> 
+        <Stack.Screen name="PontosIndi" component={PontosIndi}  options={{animationEnabled: false}} /> 
+        <Stack.Screen name="ComoGanhar" component={ComoGanhar}  options={{animationEnabled: false}} />
       </Stack.Navigator>
     </NavigationContainer>
   )

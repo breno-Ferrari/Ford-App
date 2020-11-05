@@ -72,8 +72,12 @@ import {
     exclusivos: {
       marginLeft: 20,
       width: 440,
-      height: 485,
-    }
+      height: 500,
+    },
+
+    espaço:{
+      height:5,
+  }
 
   });
 
@@ -120,6 +124,10 @@ import {
           </View>
 
         </ImageBackground>
+        <View>
+            <Image  style={styles.espaço} source={require('../img/Ford_APP_Ofertas.png')}>
+            </Image> 
+        </View>
         <ScrollView
         >
           {
